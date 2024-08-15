@@ -12,16 +12,7 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'angular-app';
 
-  // Новые свойства
+  // Новое свойство
   message = 'Angular — это здорово!';
-  isSpecial = false;
 
-  // Метод для обработки клика
-  sayHello() {
-    this.message = 'Вы нажали на кнопку!';
-  }
-
-  toggleSpecial() {
-    this.isSpecial = !this.isSpecial;
-  }
 }
